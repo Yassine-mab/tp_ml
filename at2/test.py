@@ -105,7 +105,7 @@ import numpy as np
 
 
 #   broadcasting
-#for boradcasting we one of this two things colone1 = colone2 or one of them is one and  the same for the linge
+#for boradcasting we want one of this two things colone1 = colone2 or one of them is 1 and  the same for the rows
 # array1 = np.array([[1, 2, 3, 4]])
 # array2 = np.array([[1], 
 #                    [2], 
@@ -172,15 +172,15 @@ import numpy as np
 
 
 
-rng = np.random.default_rng()
-array = np.array([1, 2, 3, 4, 5])
-rng.shuffle(array)   # this is how to shuffle the elemants of the array
-print(array)
+# rng = np.random.default_rng()
+# array = np.array([1, 2, 3, 4, 5])
+# rng.shuffle(array)   # this is how to shuffle the elemants of the array
+# print(array)
 
-fruits = np.array(["apple", "aronge", "banana"])
-fruit = rng.choice(fruits, 2)
-print(fruits)
-print(fruit)
+# fruits = np.array(["apple", "aronge", "banana"])
+# fruit = rng.choice(fruits, 2)
+# print(fruits)
+# print(fruit)
 
 
 
